@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Lista della spesa</title>
+        <script	src="script/jquery.js" type="text/javascript"></script>
+        <script src="script/script.js" type="text/javascript"></script>
+        <script src="script/requests.js" type="text/javascript"></script>
+        <link href="stile.css" rel="stylesheet" type="text/css">
+
+    </head>
+
+    <body onload="aggiornasuldevice()"> 
+        <div id="header">
+
+            <a href="#popup2"><img src="icon.png"/></a>
+            <h1>LISTA SPESA</h1>
+            <a class="aggiornacloud" onclick="aggiornasulcloud()">Salva modifiche</a>
+            <a class="aggiornadevice" onclick="aggiornasuldevice()">Aggiorna</a>
+            
+            <a href="#popup1" class="btn">+</a>
+            
+        </div>
+             
+        <div id="contenitore"></div> 
+
+        <div id="popup1" class="popup">
+        </div>
+            <a href="#" class="close-popup"></a>
+
+            <div id="popup2" class="popup2">
+                <a href="#" class="chiudi">ℹ️</a> </br></br>
+                <p><b>Name:</b> Lista spesa</p> 
+                <p><b>Update:</b> 28 May, 2019</p> 
+                <p><b>Version:</b> 1.2</p> 
+                <p><b>Size:</b> 3,26 MB</p> 
+                <p><b>Developer:</b>Vale - Ale - Masier</p> </br>
+                <h6>&copy; Copyright 2019</h6>
+            </div>
+            <a href="#" class="close-popup"></a>
+        
+    </body>
+</html>
